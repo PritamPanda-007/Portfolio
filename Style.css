@@ -56,25 +56,13 @@
 
 }
 
-.myinfoname {
+.myinfocontent {
     display:flex;
     padding: 5px;
     border: 2px dashed #B084CC;
     margin-bottom: 2px;
 }
-.myinfoDOB {
-    display: flex;
-    padding: 5px;
-    border: 2px dashed #B084CC;
-    margin-bottom: 2px;
 
-}
-.myinfocoderexp {
-    display: flex;
-    padding: 5px;
-    border: 2px dashed #B084CC;
-    margin-bottom: 2px; 
-}
 .myinfoQ {
     margin-right: 40px;
     color: #190933;
