@@ -2,7 +2,11 @@
 * {
     background-color:white;
 }
-#portfolioIcon {}
+.portfolioIcon {
+   height: 50rem;
+   background-image: url("Image.file/PortfolioIcon.png");
+   background-size: cover;
+}
   
 #indexupper {
     background-color: #ACFCD9;
