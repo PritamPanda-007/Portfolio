@@ -1,15 +1,17 @@
 /* CSS for 'Index.html' */
-* {
-    background-color:white;
+* { margin: 0px;
+}
+.indexbody {
+   background-image: url("Image.file/portfolio\ background.png");
+   background-size:cover;
 }
 .portfolioIcon {
    height: 50rem;
-   background-image: url("Image.file/PortfolioIcon.png");
+   background-image: url("Image.file/PortfolioIcon2.png");
    background-size: cover;
 }
   
 #indexupper {
-    background-color: #ACFCD9;
 }
 #indexh1 {
     text-align: center;
@@ -17,15 +19,16 @@
     background-color:#5DD9C1 ;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     font-size: 100px; 
+    margin: 0rem 0rem 2rem 0rem;
 }
 
 #p1 {
     text-align: center; 
     color: #665687;
-    background-color: #ACFCD9 ; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     font-size: 50px;
     text-decoration: #190933 underline;
+    margin-bottom: 2rem;
 }
 #p2 {
     text-align: center; 
@@ -33,8 +36,7 @@
     font-family: Arial, Helvetica, sans-serif; 
     font-size:25px ; 
     background-color: #89b0ae;
-    margin-left: 12rem;
-    margin-right: 12rem;
+    margin: 0rem 12rem 2rem 12rem ;
 }
 #indexh2 {
     text-align: center; 
@@ -44,6 +46,7 @@
     border: 3px dotted #190933 ;
     padding: 5px;
     background-color: #665687;
+    margin: 0rem 0rem 1rem 0rem;
 }
 .myinfo {
     font-size: 30px; 
@@ -55,6 +58,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 2rem 8rem 2rem 8rem;
 
 }
 
