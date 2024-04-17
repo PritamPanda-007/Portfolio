@@ -50,8 +50,8 @@
 }
 .myinfo {
     font-size: 1.875rem; 
-    font-family:Arial, Helvetica, sans-serif ; 
-    text-align:start;
+    font-family: Arial, Helvetica, sans-serif ; 
+    text-align: start;
     background-color: azure;
     border: 5px double #190933;
     padding: 1.5625rem;
@@ -63,7 +63,7 @@
 }
 
 .myinfocontent {
-    display:flex;
+    display: flex;
     padding: 0.3125rem;
     border: 2px dashed #B084CC;
     margin-bottom: 2px;
@@ -82,7 +82,7 @@
     background-color:#665687; 
     color:white; 
     line-height: 1.875rem; 
-    text-align:left; 
+    text-align: left; 
     height: 21.875rem; 
     width: 21.875rem;
     border: 3px dashed #ffffff;
@@ -90,8 +90,8 @@
 }    
 .myaddress {
     background-color: rgb(4, 11, 62);  
-    color:gold;  
-    text-align:center; 
+    color: gold;  
+    text-align: center; 
     line-height: 3.125rem; 
     font-size: 2.5rem; 
     width: 21.875rem;
