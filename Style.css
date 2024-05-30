@@ -11,8 +11,6 @@
    background-size: cover;
 }
   
-#indexupper {
-}
 #indexh1 {
     text-align: center;
     color:#190933;
@@ -98,14 +96,19 @@
     border: 2px solid #ffffff;
 }
 #linkdiv {
-    padding: 3.4375rem;
-    margin-left: 20%;
-    margin-right: 20%;
+    padding: 3.4375rem 0rem 3.4375rem 0rem;
+    margin-left: 21rem;
+    margin-right: 21rem;
     border: 3px dotted darksalmon;
     background-color: beige;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+.linkdivindex {
+    height: 6.25rem;
+    width: 6.25rem;
+
 }
 
 .footerdiv {
@@ -125,3 +128,45 @@
     margin-bottom: 6rem ;
     margin-left: 6rem;
 }
+
+ /* Codes for Responsiveness */
+ 
+ @media (min-width: 426px) and (max-width: 768px) {
+
+    #linkdiv {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .myinfo {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .portfolioIcon {
+        height: 25rem;
+    }
+    #p2 {
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+    }
+ }
+
+ @media (min-width: 769px) and (max-width: 1024px) {
+
+    #linkdiv {
+        margin-left: 14rem;
+        margin-right: 14rem;
+    }
+    .myinfo {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .portfolioIcon {
+        height: 30rem;
+    }
+    #p2 {
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+    }
+ }
+ 
+ 
